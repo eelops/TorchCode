@@ -25,6 +25,7 @@ Practice implementing operators and architectures from scratch — the exact ski
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 [![GitHub Container Registry](https://img.shields.io/badge/ghcr.io-TorchCode-blue?style=flat-square&logo=github)](https://ghcr.io/duoan/torchcode)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-TorchCode-blue?style=flat-square)](https://huggingface.co/spaces/duoan/TorchCode)
 ![Problems](https://img.shields.io/badge/problems-13-orange?style=flat-square)
 ![GPU](https://img.shields.io/badge/GPU-not%20required-brightgreen?style=flat-square)
 
@@ -47,16 +48,20 @@ TorchCode gives you a **structured practice environment** with:
 | 📖 | **Reference solutions** | Study optimal implementations after your attempt |
 | 📊 | **Progress tracking** | What you've solved, best times, and attempt counts |
 
-No cloud. No signup. No GPU needed. Just `make run`.
+No cloud. No signup. No GPU needed. Just `make run` — or try it instantly on Hugging Face.
 
 ---
 
 ## 🚀 Quick Start
 
+### Option 0 — Try it online (zero install)
+
+**[Launch on Hugging Face Spaces](https://huggingface.co/spaces/duoan/TorchCode)** — opens a full JupyterLab environment in your browser. Nothing to install.
+
 ### Option 1 — Pull the pre-built image (fastest)
 
 ```bash
-docker run -p 8888:8888 ghcr.io/duoan/torchcode:latest
+docker run -p 8888:8888 -e PORT=8888 ghcr.io/duoan/torchcode:latest
 ```
 
 ### Option 2 — Build locally
