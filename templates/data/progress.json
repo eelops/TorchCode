@@ -1,20 +1,20 @@
 {
   "relu": {
     "status": "solved",
-    "solved_at": "2026-03-31T20:15:35.858675",
-    "best_time": 0.1355588999867905,
-    "attempts": 1
+    "solved_at": "2026-04-01T14:18:15.736806",
+    "best_time": 0.09691539999766974,
+    "attempts": 2
   },
   "softmax": {
     "status": "solved",
-    "solved_at": "2026-04-01T09:09:20.352028",
+    "solved_at": "2026-04-01T14:25:35.397331",
     "best_time": 0.0013025000007473864,
-    "attempts": 6
+    "attempts": 7
   },
   "linear": {
     "status": "solved",
-    "solved_at": "2026-04-01T10:02:34.228705",
-    "best_time": 0.03335669999978563,
-    "attempts": 1
+    "solved_at": "2026-04-01T14:15:49.688757",
+    "best_time": 0.0010486999999557156,
+    "attempts": 6
   }
 }
