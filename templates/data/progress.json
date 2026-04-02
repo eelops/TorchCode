@@ -13,8 +13,14 @@
   },
   "linear": {
     "status": "solved",
-    "solved_at": "2026-04-01T14:15:49.688757",
+    "solved_at": "2026-04-02T14:36:10.576455",
     "best_time": 0.0010486999999557156,
-    "attempts": 6
+    "attempts": 8
+  },
+  "layernorm": {
+    "status": "solved",
+    "solved_at": "2026-04-02T15:23:17.531329",
+    "best_time": 0.036091999980271794,
+    "attempts": 1
   }
 }
